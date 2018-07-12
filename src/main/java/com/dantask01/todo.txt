@@ -1,0 +1,4 @@
+1) obj -> JSON ParseInstance.xmlToJson(String xml)
+2) xml -> JSON
+
+3) Unit testing

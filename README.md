@@ -2,13 +2,14 @@
 
 Further expansion of https://github.com/awesome-vojta/dantask01
 
-1. Changes:
+Changes:
 ParseInstance -> Convertor
 
-2. Additions:
+Additions:
 Convertor.employeeToJson
 Convertor.xmlToJson
 
+src/tests
 EmployeeToJsonTest.java
 InstantiateTest.java
 XmlToJson.java

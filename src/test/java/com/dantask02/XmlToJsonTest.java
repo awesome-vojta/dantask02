@@ -1,7 +1,7 @@
-package com.dantask01;
+package com.dantask02;
 
 import static org.junit.Assert.*;
-import com.dantask01.marsh.ParseInstance;
+import com.dantask02.convertor.Convertor;
 import org.junit.Test;
 
 public class XmlToJsonTest {
@@ -22,6 +22,6 @@ public class XmlToJsonTest {
 
     @Test
     public void test() {
-        assertEquals(EXPECTED_JSON,ParseInstance.xmlToJson(XML));
+        assertEquals(EXPECTED_JSON,Convertor.xmlToJson(XML));
     }
 }

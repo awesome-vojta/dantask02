@@ -1,4 +1,4 @@
-package com.dantask01.entities;
+package com.dantask02.entities;
 
 import java.util.Date;
 

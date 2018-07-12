@@ -1,9 +1,9 @@
-package com.dantask01;
+package com.dantask02;
 
 import static org.junit.Assert.*;
 
-import com.dantask01.entities.Employee;
-import com.dantask01.marsh.ParseInstance;
+import com.dantask02.entities.Employee;
+import com.dantask02.convertor.Convertor;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class InstantiateTest {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date date = sdf.parse("2009-10-12");
 
-        Employee e = ParseInstance.instantiate();
+        Employee e = Convertor.parseAndInstantiate();
 
         assertEquals("Joe",e.getFirstName());
         assertEquals("Smith",e.getLastName());

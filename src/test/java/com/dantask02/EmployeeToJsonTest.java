@@ -1,7 +1,7 @@
-package com.dantask01;
+package com.dantask02;
 
-import com.dantask01.entities.Employee;
-import com.dantask01.marsh.ParseInstance;
+import com.dantask02.entities.Employee;
+import com.dantask02.convertor.Convertor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.Test;
 
@@ -27,6 +27,6 @@ public class EmployeeToJsonTest {
         e.setSalary(75000);
         e.setHireDate(date);
 
-        assertEquals(EXPECTED_JSON,ParseInstance.employeeToJson(e));
+        assertEquals(EXPECTED_JSON,Convertor.employeeToJson(e));
     }
 }

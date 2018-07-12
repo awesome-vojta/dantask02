@@ -1,21 +1,13 @@
-package com.dantask01.controllers;
+package com.dantask02.controllers;
 
-import com.dantask01.entities.Employee;
-import com.dantask01.marsh.ParseInstance;
+import com.dantask02.entities.Employee;
+import com.dantask02.convertor.Convertor;
 import org.apache.commons.lang.StringEscapeUtils;
-import org.beanio.BeanReader;
-import org.beanio.StreamFactory;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-
 
 
 @RestController
@@ -39,7 +31,7 @@ public class Controller {
 
     @RequestMapping(value = "/instance")
     public ModelAndView showIntance(ModelMap modelMap) throws IOException {
-        Employee e = ParseInstance.instantiate();
+        Employee e = Convertor.parseAndInstantiate();
         modelMap.addAttribute("firstName", e.getFirstName());
         modelMap.addAttribute("lastName", e.getLastName());
         modelMap.addAttribute("salary", e.getSalary());

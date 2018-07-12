@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a084cca-6613-41a3-ade7-b7f605ef2587" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dantask01/todo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dantask01/EmployeeToJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dantask01/InstantiateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dantask01/XmlToJsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dantask01/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dantask01/controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dantask01/marsh/ParseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dantask01/marsh/ParseInstance.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a084cca-6613-41a3-ade7-b7f605ef2587" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +42,8 @@
       <file leaf-file-name="EmployeeToJsonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dantask01/EmployeeToJsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="158" selection-start-line="15" selection-start-column="158" selection-end-line="15" selection-end-column="158" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -315,8 +307,8 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="762" />
+    <property name="RequestMappingsPanelWidth1" value="762" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -340,25 +332,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeToJsonTest.test">
+  <component name="RunManager" selected="Spring Boot.XmlMarshallingApplication">
     <configuration name="BReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dantask01.BReader" />
       <module name="dantask01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dantask01.controllers.*" />
+          <option name="PATTERN" value="com.dantask02.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ParseInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dantask01.marsh.ParseInstance" />
+    <configuration name="Convertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dantask02.convertor.Convertor" />
       <module name="dantask01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dantask01.marsh.*" />
+          <option name="PATTERN" value="com.dantask02.convertor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,14 +362,14 @@
       <module name="dantask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dantask01.*" />
+          <option name="PATTERN" value="com.dantask02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dantask01" />
-      <option name="MAIN_CLASS_NAME" value="com.dantask01.EmployeeToJsonTest" />
+      <option name="PACKAGE_NAME" value="com.dantask02" />
+      <option name="MAIN_CLASS_NAME" value="com.dantask02.EmployeeToJsonTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -393,14 +385,14 @@
       <module name="dantask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dantask01.*" />
+          <option name="PATTERN" value="com.dantask02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dantask01" />
-      <option name="MAIN_CLASS_NAME" value="com.dantask01.InstantiateTest" />
+      <option name="PACKAGE_NAME" value="com.dantask02" />
+      <option name="MAIN_CLASS_NAME" value="com.dantask02.InstantiateTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -416,14 +408,14 @@
       <module name="dantask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dantask01.*" />
+          <option name="PATTERN" value="com.dantask02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dantask01" />
-      <option name="MAIN_CLASS_NAME" value="com.dantask01.XmlToJsonTest" />
+      <option name="PACKAGE_NAME" value="com.dantask02" />
+      <option name="MAIN_CLASS_NAME" value="com.dantask02.XmlToJsonTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -453,7 +445,7 @@
     </configuration>
     <configuration name="XmlMarshallingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dantask01" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dantask01.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dantask02.Application" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -480,7 +472,7 @@
     <list>
       <item itemvalue="Spring Boot.XmlMarshallingApplication" />
       <item itemvalue="Application.BReader" />
-      <item itemvalue="Application.ParseInstance" />
+      <item itemvalue="Application.Convertor" />
       <item itemvalue="JUnit.XmlToJsonTest.test" />
       <item itemvalue="JUnit.InstantiateTest.test" />
       <item itemvalue="JUnit.EmployeeToJsonTest.test" />
@@ -490,7 +482,7 @@
         <item itemvalue="JUnit.EmployeeToJsonTest.test" />
         <item itemvalue="JUnit.InstantiateTest.test" />
         <item itemvalue="JUnit.XmlToJsonTest.test" />
-        <item itemvalue="Application.ParseInstance" />
+        <item itemvalue="Application.Convertor" />
         <item itemvalue="Application.BReader" />
       </list>
     </recent_temporary>
@@ -507,7 +499,7 @@
       <updated>1531215130793</updated>
       <workItem from="1531215135467" duration="10227000" />
       <workItem from="1531232198535" duration="10371000" />
-      <workItem from="1531392207639" duration="5578000" />
+      <workItem from="1531392207639" duration="5868000" />
     </task>
     <servers />
   </component>
@@ -524,9 +516,15 @@
     <history-entry file="InstantiateTest_test - 2018.07.12 at 19h 31m 43s.xml">
       <configuration name="InstantiateTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeToJsonTest_test - 2018.07.12 at 19h 36m 37s.xml">
+      <configuration name="EmployeeToJsonTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeToJsonTest_test - 2018.07.12 at 19h 36m 52s.xml">
+      <configuration name="EmployeeToJsonTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26176000" />
+    <option name="totallyTimeSpent" value="26466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1600" height="842" extended-state="0" />
@@ -763,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dantask01/EmployeeToJsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="15" column="158" selection-start-line="15" selection-start-column="158" selection-end-line="15" selection-end-column="158" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,7 +1,7 @@
-package com.dantask01.marsh;
+package com.dantask02.convertor;
 
 
-import com.dantask01.entities.Employee;
+import com.dantask02.entities.Employee;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.beanio.StreamFactory;
@@ -15,12 +15,12 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-public class ParseInstance {
+public class Convertor {
 
-    private static String PATH = "/home/vojta/Documents/development/java/dantask01/src/main/java/com/dantask01/marsh/";
+    private static String PATH = "/home/vojta/Documents/development/java/dantask02/src/main/java/com/dantask02/convertor/";
 
     // Get xml, output employee
-    public static Employee instantiate() throws IOException {
+    public static Employee parseAndInstantiate() throws IOException {
         // Get xml
         Document d = Jsoup.connect("http://localhost:8080/xml").get();
         String xml = d.body().text(); // xml version, fileName, objectName included

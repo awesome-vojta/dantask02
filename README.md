@@ -1,9 +1,14 @@
-# dantask01
+# dantask02
 
-1. run Controller
-2. run ParseInstance
+Further expansion of https://github.com/awesome-vojta/dantask01
 
-Controller posts xml on localhost:8080/xml (Spring, Tomcat)
-ParseInstance scrapes URL (Jsoup) and unmarshals this html  (Beanio)
+1. Changes:
+ParseInstance -> Convertor
 
-Further cosmetic enhancement needed
+2. Additions:
+Convertor.employeeToJson
+Convertor.xmlToJson
+
+EmployeeToJsonTest.java
+InstantiateTest.java
+XmlToJson.java
